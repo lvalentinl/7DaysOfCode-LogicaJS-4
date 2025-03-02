@@ -1,0 +1,57 @@
+:root{
+    --color-prim: #87A2FF;
+    --color-sec: #C4D7FF;
+    --color-ter: #FFD7C4;
+    --color-cuat: #FFF4B5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-prim);
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: var(--color-prim);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0% 15% 0% 15%;
+}
+
+.div_class_input_numero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0% 25% 0% 25%;
+}
+
+.clas_p_resultado{
+    font-size: 1.25rem;
+    color: var(--color-ter);
+}
+
+
+footer{
+    text-align: center;
+    padding: 10% 0% 0% 0%;    
+}
